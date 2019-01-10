@@ -15,10 +15,6 @@ ul, li {
 
 .header {
 	background: url(../img/background.png) no-repeat;
-	z-index: 1;
-	width: 100%;
-	position: relative;
-	padding-top: 38px;
 }
 
 /* off shadow
@@ -40,26 +36,3 @@ ul, li {
     z-index: 2;
 }
 */
-
-.menu {
-    margin-top: 18px;
-}
-
-.menu__item {
-	margin: 0 20px;
-}
-
-.menu__item a {
-    font-size: 14px;
- 	font-weight:200;
-    color: #fff;
-}
-
-.icons__item__header:nth-child(1) {
-	margin: 0 20px;
-}
-
-.icons__item__header a {
-	color: #fff;
-	font-size: 18px;
-}
