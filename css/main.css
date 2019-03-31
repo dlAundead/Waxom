@@ -712,3 +712,112 @@ body {
 	height: 14px;
 	margin: 0 10px;
 }
+
+/*
+
+		Recent Posts
+
+*/
+
+.recentPosts_main_text {
+	text-align: center;
+}
+
+.recentPosts_content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid blue;
+}
+
+.recentPosts_item {
+	display: flex;
+	width: 370px;
+	height: 395px;
+	flex-direction: column;
+}
+
+.recentPosts_item_backgound {
+	width: 370px; 
+	height: 220px; 
+	position: relative;
+}
+
+.recentPosts_greyLine {
+	border: 1px solid #f8f8f8;
+	border-top: none;
+	height: 175px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recentPosts_greyLine h3, p, a{
+	margin: 5px 0px 15px 25px;
+}
+
+.recentPosts_greyLine h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #555;
+}
+
+.recentPosts_greyLine p {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.recentPosts_greyLine a {
+	text-decoration: none;
+	color: #c7b299;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.recentPosts_hover {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: #fff;
+}
+
+.recentPosts_item:hover .recentPosts_hover_item1 {
+	background-color: #c7b299;
+}
+
+.recentPosts_item:hover .recentPosts_hover_item2 {
+	background-color: #a48d72;
+}
+
+.recentPosts_item:hover .recentPosts_greyLine {
+	background-color: #362f2d;
+}
+
+.recentPosts_item:hover .recentPosts_greyLine h3 {
+	color: #c7b299;
+}
+
+.recentPosts_item:hover .recentPoss_greyLine p {
+	color: #fff;
+}
+
+.recentPosts_hover_item1 {
+	height: 35px;
+	width: 50px;
+	background-color: #363636;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+
+.recentPosts_hover_item2 {
+	width: 50px;
+	height: 25px;
+	background-color: #252525;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
